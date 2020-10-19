@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+#projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+#projects h3 {
+    line-height: 1rem;
+    font-weight: 400;
+    color:  #14bf98;
+}
+#projects h1 {
+    line-height: 2rem;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    
+}
+#projects .buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#projects .buttons button {
+    padding: 4px 10px;
+    margin: 2px 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ddd;
+    font-size: 9px;
+    font-weight: 600;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+#projects .buttons #select {
+    background-color: #14bf98;
+    color: #fff;
+}
+#projects .buttons button:hover {
+    background-color: #14bf98;
+    color: #fff;
+}
+
+#projects .gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    padding-top: 20px;
+}
+#projects .gallery .row-1 {
+    display: flex;
+}
+#projects .gallery .row-2 {
+    display: flex;
+}
+#projects .gallery img:hover{
+    transform: scale(1.02);
+}
